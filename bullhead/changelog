@@ -28,6 +28,50 @@ scripts: setlocalversion: remove plus symbol
 Bullhead kernel: implement always on rgb led support
 
 ------Common ROM changes------
+Choose a custom editor app for screenshot notification edit button [2/2]
+Change developer options strings to something less dumb
+InstalledApp: show link to Google Play
+Recents: Fix "clear all" visibility
+Add Power+VolUp action to catch a partial area screenshot		
+Disable power button haptic feedback conditionally
+Choose a custom editor app for screenshot notification edit button [1/2]
+Markup screenshot edit button: collapse notification panel on tap
+Screenshot: add "Markup" edit action support
+Revert "DeskClock: move to NotificationChannels"
+Revert "DeskClock: use non-Compat Notification classes"		
+Revert "Fix alarm not firing in memory-pressure situations"
+DeskClock: Failed to set up Alarm
+Deskclock: define app category
+Jelly: Build with AAPT2	Merged
+Jelly: Add explicit static inclusion of android-support-transition
+Forward Port: Smoother Upload and Download Animation		
+dataservices: Use LOCAL_VENDOR_MODULE instead of hardcoding module paths
+fwb: Keyguard: Hide check button when using PIN quick unlock
+Build: nuke Email	
+Add battery light switch [2/2]
+Add battery light switch [1/2]
+Add init.aosip.rc
+Fix string for lockscreen charging			
+Remove fingerprint pref for devices that dont have sensor		
+Automatic translation import
+Portrait battery: improve size for the warning level exclamation mark		
+Statusbar text battery: use âš¡ instead of ~ when charging
+aosip: Set TARGET_CRYPTFS_HW_PATH if HW crypto is enabled
+build: build generic aosip targets from vendor/aosip
+vold: Also wait for dm device when mounting private volume
+minivold: Use libblkid for readMetadata
+Revert "vold: Add path to cryptfs_hw"
+soong: Add TARGET_USES_QTI_CAMERA_DEVICE
+aosip: add generic aosip targets
+camera: Only link and use vendor.qti.hardware.camera.device if specified
+Camed HAL extension: Added support in HIDL for Extended FD.
+camera: Only link and use vendor.qti.hardware.camera.device if specified
+Camera: CameraHardwareInterface changes to support Extended FD		
+Dialer: adaptive icon
+DeskClock: Update launcher icon
+aosip: Add awk
+some string cleanup
+manifest: track msm8974 HALs from Lineage
 Perfprofd: Fix service definition 
 Sepolicy: Fix perfprofd path 
 SystemUI: guard possible concurrent issue in LocationController 

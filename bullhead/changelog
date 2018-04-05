@@ -11,9 +11,22 @@ Bullhead: Add Android O Apt-X Libs
 Merge tag 'android-8.1.0_r0.42'
 
 --device/lge/bullhead changes--
+Bullhead: Add maintainer prop
 Merge tag 'android-8.1.0_r20'
 -----------------------------------------------------------------------------------------------------------
 ------Common ROM changes------
+Fix resampling for multiple pointers 
+Support UnifiedNlp (microG) 
+core: Add support for fake signatures, enabled per app by dynamic permission 
+Workaround perdev_minors path change in Linux 
+Themes: Add our BlackAF variant to styles(2/3) 
+Themes: Add our BlackAF variant to styles(3/3) 
+Themes:Add BlackAF option to themes QS tile 
+Themes: Add our BlackAF variant to styles(1/3) 
+Launcher3: Use dark theme for BlackAF 
+QS: add right/left padding even if it's 0 for collapsed statusbar 
+SystemUI: VoLIT 
+Support recents task locking 
 Update default wall to the new shits 
 SubscriptionInfoUpdater: Fix npe on few devices 
 SystemUI: Dividers begone! 
@@ -39,10 +52,6 @@ Fix bolt not showing when charging with battery style text
 About AOSiP: make title show in actionbar again 
 Settings: Add back AOSiP Device Maintainers 
 Replace fling QS tile with kronic vector 
-op3: Fix acdb id and audio backend names 
-op3: Add qti_libpermissions to allow access to android.hidl.manager 
-op3: Remove unused blobs 
-Mata: Add maintainer prop 
 Themes: Let expanded desktop background follow light/dark 
 Fling kb cursors: long press left/right to keep moving cursor [1/2] 
 Fling kb cursors: long press left/right to keep moving cursor [2/2] 

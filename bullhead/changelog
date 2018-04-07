@@ -15,6 +15,28 @@ Bullhead: Add maintainer prop
 Merge tag 'android-8.1.0_r20'
 -----------------------------------------------------------------------------------------------------------
 ------Common ROM changes------
+Automatic translation import 
+OwlsNest: Update some strings as suggested on crowdin 
+BatteryMeterDrawable: add landscape style (2/2) 
+BatteryMeterDrawable: add landscape style (1/2) 
+base: telephony: Add support for DC_HSPAP 
+Add README to document the communication with the server 
+Define the entire server URL as resource 
+Replace refresh dialog with icon animation 
+Handle install errors from onPayloadApplicationComplete() 
+Make updates world readable 
+Use single return statement in onStartCommand() 
+Prevent NPE on A/B devices 
+Clear NEEDS_REBOOT preference on reboot 
+Set status to INSTALLING when reconnecting to the service 
+Don't register multiple UpdateEngine callbacks 
+Remove duplicate INSTALLING notification 
+Updater: explicitly include android-support-transition 
+Statusbar battery text style: show a charging symbol near percentage 
+StatusBar: use one observer to handle all statusbar changes 
+Revert text bolt commits 
+InputMethodManagerService: adjust grip mode for input enable/disable 
+Fix broken input tests 
 Fix resampling for multiple pointers 
 Support UnifiedNlp (microG) 
 core: Add support for fake signatures, enabled per app by dynamic permission 

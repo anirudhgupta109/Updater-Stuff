@@ -15,6 +15,43 @@ Bullhead: Add maintainer prop
 Merge tag 'android-8.1.0_r20'
 -----------------------------------------------------------------------------------------------------------
 ------Common ROM changes------
+AsyncTask: Fix to remove canceled tasks from executor's queue	
+Fix a null pointer exception in FragmentManager			
+Remove duplicate code for binder ID clear and restore
+Synchronize the HeadsetService methods		
+ActivityStack: Add task null checker before proceeding			
+Accessibility: Fix FWR when unlinkToDeath if linkToDeath failed		
+ActivityManager: Change way to get Available memory			
+base: Use MethodHandles within the framework			
+Frameworks: Handle exceptions in SystemProperties callbacks		
+GLSurfaceView: report draw finished after first onDrawFrame in GLThread		
+core: Fix AccessibilityNodeInfo memory leak			
+Camera: allow camera to use power key as shutter			
+Fix subs msim exposure to work with system themes	
+base: Unbreak public API		
+LatinIME: support for incognito mode		
+LatinIME: sync and rebuild emojis		
+LainIME: add unicode 9.0 chars		
+LatinIME: Add shortcuts support		
+InputMethods: set the default value for preference		
+LatinIME: Add Bulgarian, Georgian and Ukrainian wordlists		
+Don't interrupt active gesture input by modifier key presses.	
+Add support for BÃ©po keyboard layou		
+make default overlay for "show correction suggestion"		
+LatinIME: Add Luxembourgish keyboard & spellchecking dictionary		
+LatinIME: Add support for Australian English		
+LatinIME: Enable Greek spell checking
+LatinIME: Enable spellchecker for additional languages		
+LatinIME: HU enable predictive dictionary and remove unused letters
+LatinIME: Regenerate KeyboardTextsTable
+manifest: track hals from Lineage
+audio_amplifier: add hooks for stream parameter manipulation	
+Resolve race condition of mNonAnimatableProperties.colorFilter
+Update whitelist when installing system application
+Allow ro. properties to have arbitrary lengths	
+Frameworks: Clean up SystemProperties
+base: Move theme related code to its own class
+OwlsNest: AccentPicker: cleanup a bit
 Automatic translation import 
 OwlsNest: Update some strings as suggested on crowdin 
 BatteryMeterDrawable: add landscape style (2/2) 
